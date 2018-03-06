@@ -1,0 +1,10 @@
+{
+  "name": "hub-orange",
+  "description": "open-exchange integration to Hub for Orange",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-serve": "^0.1.6"
+  }
+}

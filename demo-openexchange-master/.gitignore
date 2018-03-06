@@ -1,0 +1,12 @@
+tmp/
+.tmp/
+dist/
+node_modules/
+package/
+*.swp
+*.DS_Store
+archive
+build/
+deploy/
+.sass-cache/
+.settings/

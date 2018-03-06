@@ -1,0 +1,45 @@
+.appointmentHolder {
+    border: 1px solid #e6e6e6;
+}
+
+.appointment {
+    padding: 6px 10px;
+}
+
+.titleHolder {
+    position: relative;
+}
+
+.titleHolder .title {
+    color: #626262;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.titleHolder .timestamp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 75%;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 8.5pt;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 9pt;
+    margin-top: 4px;
+}
+
+.noteBody {
+    overflow: hidden;
+    max-height: 200px;
+    position: relative;
+    margin-top: 10px;
+    font-size: 8pt;
+}
