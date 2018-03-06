@@ -118,9 +118,9 @@ router.options('/*', function(req, res) {
 // =============================================================================
 // route of the micro app iframe
 router.get('/microApp', function(req, res) {
-  /*if(!isAuthenticated(req)) {
+  if(!isAuthenticated(req)) {
     return res.json({message: 'you are not authenticated'});
-  } */
+  } 
   console.log('You called the micro app route!');
   res.sendFile(path.join(__dirname + '/public/microApp.html'));
 });
