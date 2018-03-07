@@ -1,0 +1,78 @@
+{
+  "data": {
+    "folder_id": "default0/INBOX",
+    "id": "2",
+    "unread": 0,
+    "attachment": false,
+    "content_type": "multipart/alternative",
+    "size": 5583,
+    "account_name": "E-Mail",
+    "account_id": 0,
+    "from": [
+      [
+        "Alec Walker",
+        "alecwalker57@gmail.com"
+      ]
+    ],
+    "to": [
+      [
+        "firstname lastname",
+        "alecwalker@walkerplumbers.com"
+      ]
+    ],
+    "cc": [],
+    "bcc": [],
+    "subject": "Re: test",
+    "sent_date": 1489843582000,
+    "received_date": 1489843608000,
+    "flags": 32,
+    "user": [],
+    "color_label": 0,
+    "priority": 3,
+    "headers": {
+      "Authentication-Results": [
+        "mfg.siteprotect.com; spf=pass smtp.mailfrom=alecwalker57@gmail.com; dkim=pass header.i=gmail.com",
+        "semfq01.mfg.siteprotect.com; dmarc=pass header.from=gmail.com"
+      ],
+      "Received-SPF": "pass (semfq01.mfg.siteprotect.com: domain of gmail.com designates 209.85.215.46 as permitted sender) client-ip=209.85.215.46; envelope-from=alecwalker57@gmail.com; helo=mail-lf0-f46.google.com;",
+      "MIME-Version": "1.0",
+      "Message-ID": "<CALxA1i=jonAe=K6oppG6Mp30a2RHJMMKU4-XDeqW=pQDLDHp_w@mail.gmail.com>",
+      "X-Gm-Message-State": "AFeK/H37fkBzQ8U2iimqdFwCRnn6l8yI9DE4bNKR+9rQobvMDwDg7VCfoG0n951jrF5ZRV7O5erNE0G+ZWsjFA==",
+      "Received": [
+        "from mxr.mfg.siteprotect.com ([192.168.33.70]) by stor22r.mfg.siteprotect.com (Dovecot) with LMTP id ATyzH+h7zVioMwAA/mTXCQ for <alecwalker@walkerplumbers.com>; Sat, 18 Mar 2017 13:26:48 -0500",
+        "from semfq01.mfg.siteprotect.com (semfq01.mfg.siteprotect.com [64.26.60.182]) by mxr.mfg.siteprotect.com (Postfix) with ESMTPS id 3vlrJm3k6Dz1XM6QF for <alecwalker@walkerplumbers.com>; Sat, 18 Mar 2017 13:26:48 -0500 (CDT)",
+        "from mail-lf0-f46.google.com ([209.85.215.46]) by semfq01.mfg.siteprotect.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128) (Exim 4.86) (envelope-from <alecwalker57@gmail.com>) id 1cpJ3v-0006dS-9e for alecwalker@walkerplumbers.com; Sat, 18 Mar 2017 13:26:48 -0500",
+        "by mail-lf0-f46.google.com with SMTP id z15so43380702lfd.1 for <alecwalker@walkerplumbers.com>; Sat, 18 Mar 2017 11:26:45 -0700 (PDT)",
+        "by 10.25.80.79 with HTTP; Sat, 18 Mar 2017 11:26:22 -0700 (PDT)"
+      ],
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025; h=mime-version:in-reply-to:references:from:date:message-id:subject:to; bh=3JiE8X4EICsJScKEssS017+MBYMs/dvGT8iu2U84gM8=; b=U+3vP+3BM7WFKUZuZdJa9OFqJCh/jmOSX6HS/tdcbj9rYBdYpL2Ov7DKs6kn0mvQlw i6hWM8VMmcaRldSixvgomkQxhHgKeIpHLskARAOUXDUM3tmRZKNkc/6h582J0y5Z5RjC uLV1k4BNGCKFpXNOU/q9ws4hTJTSf2AOCH3jPhrQ8S3VUHDPPuEh0rDw/gX8hjWaaAJr 7LgZwOfQEAAKvdUC+fmyTTbXAhSCWh5rzcNp+VOIsPT13gGOc0AelI8lm9kY4V0bReq4 zaMNH8xmr+pRAS0Xyr0waQWxKdT+UA7OEgv+sQh19S360fWk+i9g6GiJlmySanPnPYzm zv9g==",
+      "Delivered-To": "alecwalker@walkerplumbers.com",
+      "X-Received": "by 10.46.32.151 with SMTP id g23mr6294617lji.2.1489861603068; Sat, 18 Mar 2017 11:26:43 -0700 (PDT)",
+      "X-Filter-ID": "KnJmo4tfeele54viduzbHMMigbo/rmR3dD25ApuSwl9Nae633Oe7i3V+E3IHTnFKTkTUDHj8o9Z9 wMD/dDXyz6mYk8RhE2twep1w38Tr2wVmQ7MqiWzMx857Jch6aY4792PNDpgLsd6Ddd/s7VM53mK2 F5XNVA5F9+r9z/CC2WkLUyFVY3vU0va3QGF1H8ga/cwdQlE/2tf+B36DiSrs7Vv8A9w0xVpT663M Zh/Zja0HPF7+SgGtw/wfOLtpXVJEr7hoD1R6CprAkPDhjZ2j/cJkCa79mp0JgOJ2V3s47OeNgvUv 2aO7Rg0WLOTufak4pF48rf8vO7JoHQTLXjWeytbnEY6XAKpdEds0xIfXTqawMwiWVWSCaX26fDh1 6GAdGOC+7ukCf411wDyLaL5NOF2Q7yedQThJeRovIBt+t9EQbyE9lbXWpdZlhokO6TIMmkf5BWFp hzcCzR4lfAfn4BHLjdjHb3+cGzIAFXIrW0VB+My4PWf1xCIsZVgHJlSWoKjbpsg9nkEYAd6FmqsN pXYQKpBq02dDRlWCYwR9qT1DZdQDVNWihIoPYndU59lKR8ZxN/trbr/Tcmj7FzRhtoPAgTtUp75u qlx0KezvZHU7ReVBGzrk1A9Lk10ciJ7KcNb6niSmMOVd27bBwmsT0xII1yJ8udUSd8siDlV+9cBL pGLKbiMLMKI7KIsgfDrl6J1fhOzjF0b4LXcjJZ5loqCyvFYM0xCj29qXFNxe36k078I0y+3uS4dN KiUgYTBU0ThwSGxTV9m7OY4MXI/EySvvMbIIty1BrdRX3euPU+v6hYCF0D67O+iDK8Lnv/b7iaWf K874jv1l3L2f1yMclqANQz7+2FYsAZildRW+/dQ7Pl9NLzmgXw+dzDeBu63Z",
+      "References": "<1972899519.67039.1489857818795.JavaMail.open-xchange@oxapp04.mfg.chicago.hostway>",
+      "X-Report-Abuse-To": "spam@semfq02.mfg.siteprotect.com",
+      "X-Recommended-Action": "accept",
+      "In-Reply-To": "<1972899519.67039.1489857818795.JavaMail.open-xchange@oxapp04.mfg.chicago.hostway>",
+      "X-SPF-Result": "semfq01.mfg.siteprotect.com: domain of gmail.com designates 209.85.215.46 as permitted sender",
+      "X-SpamExperts-Class": "ham",
+      "X-SpamExperts-Evidence": "Combined (0.15)",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:in-reply-to:references:from:date :message-id:subject:to; bh=3JiE8X4EICsJScKEssS017+MBYMs/dvGT8iu2U84gM8=; b=CZ27NVJkyK2tCi6sQaC3VIdallMVWjD93LSBT/RRjj7/LNvfR5QGLVmSiEEWTMpIpC Rrqs3KtsFznDQy5GoiBPvxMgAGYwvoqeqDZ7UWsDXk3s4hsXcZMHX9jFuZOlO6bJA5BV zMpQhx/ckYhDI34MFp4UBF1o+6MoTqnA4+uHDh6GVjm5y082GoGTKG6AWg+QMSs2NCOD 4qm57dDNCAPmce7WAZ+IloE7ZwRz3ykQESH9KWcHHYGLBkny5BhYGq9Ty+P4POqnM+L9 PQHIWeGM330bdAIolcE/oCuONSgRFPQaF0sA5xQnK8HynDUQgiQgCvf1iNl1o0Z0BWp6 ja/A==",
+      "Return-Path": "<alecwalker57@gmail.com>"
+    },
+    "attachments": [
+      {
+        "id": "2",
+        "truncated": false,
+        "content_type": "text/html",
+        "size": 448,
+        "disp": "inline",
+        "content": "<div dir=\"ltr\">okay</div><div class=\"gmail_extra\"><br><div class=\"gmail_quote\">On Sat, Mar 18, 2017 at 1:23 PM, firstname lastname <span>&#60;<a href=\"mailto:alecwalker@walkerplumbers.com\" target=\"_blank\">alecwalker@walkerplumbers.com</a>&#62;</span> wrote:<br><blockquote class=\"gmail_quote\" style=\"margin: 0 0 0 .8ex;border-left: 1px #ccc solid;padding-left: 1ex;\"><u></u>\r\n\r\n\r\n    \r\n <div><p>test message</p></div></blockquote></div><br></div>\r\n"
+      },
+      {
+        "content_type": "text/plain",
+        "content": "okay  On Sat, Mar 18, 2017 at 1:23 PM, firstname lastname <  alecwalker@walkerplumbers.com <mailto:alecwalker@walkerplumbers.com>> wrote:    test message    "
+      }
+  ],
+  "modified": 0
+}
+}

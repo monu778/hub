@@ -1,0 +1,72 @@
+{
+  "data":{
+    "folder_id":"default0/INBOX",
+    "id":"1",
+    "unread":0,
+    "attachment":false,
+    "content_type":"text/plain",
+    "size":3048,
+    "account_name":"E-Mail",
+    "account_id":0,
+    "from":[
+      [
+        null,
+        "noreply@hostway.com"
+      ]
+    ],
+    "to":[
+      [
+        null,
+        "alecwalker@walkerplumbers.com"
+      ]
+    ],
+    "cc":[
+
+    ],
+    "bcc":[
+
+    ],
+    "subject":"Welcome to OX App Suite",
+    "sent_date":1489838735000,
+    "received_date":1489838737000,
+    "flags":32,
+    "user":[
+
+    ],
+    "color_label":0,
+    "priority":3,
+    "headers":{
+      "Authentication-Results":"mfg.siteprotect.com; spf=pass smtp.mailfrom=noreply@hostway.com",
+      "Received-SPF":"pass (semf04.mfg.siteprotect.com: domain of hostway.com designates 64.26.28.5 as permitted sender) client-ip=64.26.28.5; envelope-from=noreply@hostway.com; helo=smtprelay00.siteprotect.com;",
+      "MIME-Version":"1.0",
+      "Received":[
+        "from mxr.mfg.siteprotect.com ([192.168.33.71]) by stor22r.mfg.siteprotect.com (Dovecot) with LMTP id kSpeLeFozVhOCAAA/mTXCQ for <alecwalker@walkerplumbers.com>; Sat, 18 Mar 2017 12:05:37 -0500",
+        "from semf04.mfg.siteprotect.com (semf04.mfg.siteprotect.com [64.26.60.167]) by mxr.mfg.siteprotect.com (Postfix) with ESMTPS id 3vlpW55Gr4z10y6 for <alecwalker@walkerplumbers.com>; Sat, 18 Mar 2017 12:05:37 -0500 (CDT)",
+        "from smtprelay00.siteprotect.com ([64.26.28.5]) by semf04.mfg.siteprotect.com with esmtp (Exim 4.86) (envelope-from <noreply@hostway.com>) id 1cpHnM-0002Gc-6K for alecwalker@walkerplumbers.com; Sat, 18 Mar 2017 12:05:37 -0500",
+        "from hpsapp10.chicago.hostway (hpsapp10.chicago.hostway [10.10.140.39]) by smtprelay00.siteprotect.com (Postfix) with SMTP id 6C7685982A5 for <alecwalker@walkerplumbers.com>; Sat, 18 Mar 2017 12:05:35 -0500 (CDT)"
+      ],
+      "Delivered-To":"alecwalker@walkerplumbers.com",
+      "X-Filter-ID":"s0sct1PQhAABKnZB5plbIUk2nhtyTyiPGKTVpfwFSnto5GVO+jO48AxMrCH5L6aZERWeKKG4PAQY Nyavp7c49PcsaUTMQL9mEKTyM2levAdR7gKuJOz6hvTOYnc+46Eet4lP0GR8jfSinTz1pajzuyEb xxLK3QENjMlUnGz2Ts8uXhTATgZTCLTTmHgV22FL9vy41yCHzszG+oD3PbU3MSadIamXj1w2To8D FLhJWBtm4zuNRcgRKiGg7nXFaZTx0huDe6w1vsRFy+LKoZOg6O5umWduIPIExSIS9Rm4+dV8mq4q lCvXP96p0cbAJSsTGOC+7ukCf411wDyLaL5NOGhCmLzOxTAcQmFWVARhgNo4RnzpbCtU0FScJhLt rBCBigN6V1j1jBMz6KxN3KfR88tiEeOwT2uViPxKnwXIgGgbAT/bTGM3eqpSRQBxZnoh7DiurWya lDSeqctD6prWPJJCsoN43qG4TaQSZz+r0gW7TO4iXVaQWO1S8O2rtPxnAOTmdYiIhy2F1Nqi2Qhq tLGmyiEs/YsMYCGGu0bgRxTY2kV6SaLzUkcokZgn1cNrxDM3qyX0GvVAGCrIBFfKfo5d+k15Eim8 UfjazLoR8A0jnKuFOt4pT/TNWiea+EZ1aIfVaCHpEB6cFH6WJxE4Zo1hYvFcioyM8kb+wl1IpcB9 +cMFayfZFJ2u6PF1a6xTlewJDCovO7SCfBuIgHBcMBKz7c/NnxVl92HbT0+343SkUIVSIMBzYK28 FW1+1hSbDrWRKSPKe2Ih1cc8ZAeKxW3e+3hsTHMYiX54y1k14WMBkhIi2NI+WmzANtdRz/eO",
+      "X-Report-Abuse-To":"spam@semfq02.mfg.siteprotect.com",
+      "X-Recommended-Action":"accept",
+      "Content-Transfer-Encoding":"8bit",
+      "Auto-Submitted":"auto-generated",
+      "X-SPF-Result":"semf04.mfg.siteprotect.com: domain of hostway.com designates 64.26.28.5 as permitted sender",
+      "X-SpamExperts-Class":"ham",
+      "X-SpamExperts-Evidence":"Combined (0.14)",
+      "Reply-To":"noreply@hostway.com",
+      "Return-Path":"<noreply@hostway.com>"
+    },
+    "attachments":[
+      {
+        "id":"1",
+        "disp":"inline",
+        "content_type":"text/plain",
+        "size":335,
+        "content":"Hostway welcomes you to OX App Suite! We&rsquo;re writing to notify you that your new mailbox is ready to go. Please enjoy all the new features available in this modern, versatile tool. And if you want to upgrade to OX Collaborate, you can do so via the Account Management widget.<br><br>As always, thanks for being a Hostway customer!",
+        "truncated":false
+      }
+    ],
+    "modified":0
+  }
+}

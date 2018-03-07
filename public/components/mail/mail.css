@@ -1,0 +1,101 @@
+.messageHolder {
+    border: 1px solid #e6e6e6;
+}
+
+.showMoreHolder {
+    position: relative;
+    z-index: 100;
+}
+
+.showMore,
+.showLess {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 6px 5px 9px;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+.showMore::before {
+    font-size: 9pt;
+    font-weight: 500;
+    content: 'Show More';
+}
+
+.showLess::before {
+    font-size: 9pt;
+    font-weight: 500;
+    content: 'Show Less';
+}
+
+.showMore::after {
+    font-family: 'hub-icons-font';
+    content: "\e950";
+    position: relative;
+    top: 2px;
+}
+
+.showLess::after {
+    font-family: 'hub-icons-font';
+    content: "\e95b";
+    position: relative;
+    top: 2px;
+}
+
+.showMore:hover,
+.showLess:hover {
+    color: #2DBD9B;
+}
+
+.showMore.hidden,
+.showLess.hidden {
+    display: none;
+}
+
+.message {
+    padding: 6px 10px;
+}
+
+.senderHolder {
+    position: relative;
+}
+
+.senderHolder .sender {
+    color: #626262;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 9pt;
+}
+
+.subject {
+    font-weight: 400;
+    font-size: 8.5pt;
+}
+
+.messageBody {
+    overflow: hidden;
+    max-height: 35px;
+    position: relative;
+    font-size: 8pt;
+    line-height: 1.1rem;
+    margin-top: 10px;
+}
+
+.messageBody a {
+    color: grey;
+    font-weight: 400;
+}
+
+.messageBody.expanded {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 400px;
+    padding-right: 11px;
+    margin-right: -11px;
+}
+
+.messageBody.expanded a {
+    word-break: break-all;
+}
